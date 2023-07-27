@@ -1,0 +1,43 @@
+.relative {
+  position: relative
+}
+
+.left-5 {
+  left: 1.25rem
+}
+
+.right-5 {
+  right: 1.25rem
+}
+
+.top-6 {
+  top: 1.5rem
+}
+
+.flex {
+  display: flex
+}
+
+.h-10 {
+  height: 2.5rem
+}
+
+.w-10 {
+  width: 2.5rem
+}
+
+.flex-row {
+  flex-direction: row
+}
+
+.items-center {
+  align-items: center
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
+.rounded-full {
+  border-radius: 9999px
+}
