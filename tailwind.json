@@ -1,0 +1,60 @@
+{
+	"relative": {
+		"style": {
+			"position": "relative"
+		}
+	},
+	"left-5": {
+		"style": {
+			"left": 20
+		}
+	},
+	"right-5": {
+		"style": {
+			"right": 20
+		}
+	},
+	"top-6": {
+		"style": {
+			"top": 24
+		}
+	},
+	"flex": {
+		"style": {
+			"display": "flex"
+		}
+	},
+	"h-10": {
+		"style": {
+			"height": 40
+		}
+	},
+	"w-10": {
+		"style": {
+			"width": 40
+		}
+	},
+	"flex-row": {
+		"style": {
+			"flexDirection": "row"
+		}
+	},
+	"items-center": {
+		"style": {
+			"alignItems": "center"
+		}
+	},
+	"justify-between": {
+		"style": {
+			"justifyContent": "space-between"
+		}
+	},
+	"rounded-full": {
+		"style": {
+			"borderTopLeftRadius": 9999,
+			"borderTopRightRadius": 9999,
+			"borderBottomRightRadius": 9999,
+			"borderBottomLeftRadius": 9999
+		}
+	}
+}

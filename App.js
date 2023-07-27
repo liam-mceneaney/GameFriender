@@ -1,12 +1,27 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { useLocalSearchParams } from 'expo-router';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import StackNavigator from './StackNavigator'
+import tw from 'tailwind-rn';
+import {TailwindProvider} from 'tailwind-rn';
+import utilities from './tailwind.json';
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <TailwindProvider utilities={utilities}>
+    <NavigationContainer >
+      <StackNavigator
+        screenOptions={{
+          headerShown:false,
+        }}>
+
+        </StackNavigator>
+    </NavigationContainer>
+    </TailwindProvider>
   );
 }
 
